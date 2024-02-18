@@ -1,3 +1,16 @@
+/*
+Create a class `Car` with attributes `model`, `make`, and `rentalFee`. Implement a
+parameterized constructor to initialize these attributes. Overload the constructor to handle both
+with and without rental fee cases. Create a method to display the details of the car, including the
+rental fee.
+Sample Input:
+Car 1: Model - "Sedan", Make - "Toyota"
+Car 2: Model - "SUV", Make - "Ford", Rental Fee - 50
+
+Sample Output:
+Car 1 created with no rental fee.
+Car 2 created with rental fee 50. Rental Fee: 50.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
