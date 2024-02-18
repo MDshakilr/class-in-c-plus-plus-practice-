@@ -1,3 +1,17 @@
+/*
+Create a class `Student` with attributes `rollNumber`, `name`, and `marks`. Implement a
+parameterized constructor to initialize these attributes. Overload the constructor to handle both
+with and without marks cases. Display the grade of the student based on the marks (A, B, C, D,
+or F).
+Sample Input:
+Student 1: Roll Number - 101, Name - "Tom"
+Student 2: Roll Number - 102, Name - "Lisa", Marks - 75
+
+Sample Output:
+Student 1 created with no marks.
+Student 2 created with marks 75. Grade: B.
+    */
+
 #include<bits/stdc++.h>
 using namespace std;
 class Student
