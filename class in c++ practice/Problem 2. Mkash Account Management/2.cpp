@@ -1,3 +1,18 @@
+/*Create a class `Account` with attributes `accountNumber`, `accountHolder`, and `balance`.
+Implement a parameterized constructor to initialize these attributes. Overload the constructor to
+handle both initial balance and without initial balance cases. Create methods for deposit and
+withdrawal. Display the account details after each transaction.
+Sample Input:
+Account 1: Account Number - 1001, Account Holder - "Alice"
+Account 2: Account Number - 1002, Account Holder - "Bob", Initial Balance - 5000
+
+Sample Output:
+Account 1 created with balance 0.
+Account 2 created with balance 5000.
+Deposit 1: 1500. New Balance: 1500.
+Withdrawal 1: 800. New Balance: 700.
+    */
+
 #include<bits/stdc++.h>
 using namespace std;
 class Account {
